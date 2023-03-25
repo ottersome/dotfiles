@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ottersome/ehd/Wallpapers/snowyMountain.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#161510",
+        "foreground": "#c9bcc2",
+        "cursor": "#c9bcc2"
+    },
+    "colors": {
+        "color0": "#161510",
+        "color1": "#9F606C",
+        "color2": "#8C6776",
+        "color3": "#CB665F",
+        "color4": "#D18C77",
+        "color5": "#6B7387",
+        "color6": "#B37786",
+        "color7": "#c9bcc2",
+        "color8": "#8c8387",
+        "color9": "#9F606C",
+        "color10": "#8C6776",
+        "color11": "#CB665F",
+        "color12": "#D18C77",
+        "color13": "#6B7387",
+        "color14": "#B37786",
+        "color15": "#c9bcc2"
+    }
+}

@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 211964d56ee00a7d46e251cbc150afb79138ae37 Luis Garcia <luisgarcia26284@gmail.com> 1679721782 +0800	clone: from https://git.suckless.org/st
+211964d56ee00a7d46e251cbc150afb79138ae37 4bb5713af8d1b83b7e49996804845e5dc3b960a3 Luis Garcia <luisgarcia26284@gmail.com> 1679722856 +0800	commit: About to start patching
+4bb5713af8d1b83b7e49996804845e5dc3b960a3 0aee3804fd7187de6c198ffda34e5c726711f74f Luis Garcia <luisgarcia26284@gmail.com> 1679723455 +0800	commit: Added Scrollback 0.8.5 and corresponding reflow
+0aee3804fd7187de6c198ffda34e5c726711f74f aa0537cd98aaf35046ef45aa9713e458b0977abf Luis Garcia <luisgarcia26284@gmail.com> 1679723626 +0800	commit: Added Scrollback MOuse and altscreen
+aa0537cd98aaf35046ef45aa9713e458b0977abf 053ddd862b08ee878a12ea81c1360d46b1cab379 Luis Garcia <luisgarcia26284@gmail.com> 1679723645 +0800	commit: Added Alpha patch
+053ddd862b08ee878a12ea81c1360d46b1cab379 0469505d4ca44d979229691606f1aa6766362ac7 Luis Garcia <luisgarcia26284@gmail.com> 1679723668 +0800	commit: Added anysize
+0469505d4ca44d979229691606f1aa6766362ac7 36fec84285d1a026c440eab28ee1292b43d55461 Luis Garcia <luisgarcia26284@gmail.com> 1679723688 +0800	commit: Added Clipboard
+36fec84285d1a026c440eab28ee1292b43d55461 4c97bc17d63752418b5dac11c65749b0f9597718 Luis Garcia <luisgarcia26284@gmail.com> 1679724407 +0800	revert: Revert "Added Clipboard"
+4c97bc17d63752418b5dac11c65749b0f9597718 36fec84285d1a026c440eab28ee1292b43d55461 Luis Garcia <luisgarcia26284@gmail.com> 1679724426 +0800	reset: moving to 36fec84285d1a026c440eab28ee1292b43d55461
+36fec84285d1a026c440eab28ee1292b43d55461 21f739d6e0bed560f7526fa55a430d391ea32612 Luis Garcia <luisgarcia26284@gmail.com> 1679724604 +0800	commit: Added new term

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/ottersome/.config/wpg/wallpapers/lukasz-szmigiel-8AdYB7M4OHY-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0f101b",
+        "foreground": "#f5ffff",
+        "cursor": "#f5ffff"
+    },
+    "colors": {
+        "color0": "#0f101b",
+        "color1": "#AF7A8C",
+        "color2": "#B094B2",
+        "color3": "#D7B4C6",
+        "color4": "#5E678F",
+        "color5": "#DEA1AB",
+        "color6": "#ACB4CB",
+        "color7": "#d2dae2",
+        "color8": "#20223b",
+        "color9": "#f68baf",
+        "color10": "#f7abfc",
+        "color11": "#ffceff",
+        "color12": "#6a7cc9",
+        "color13": "#ffb8cd",
+        "color14": "#c7deff",
+        "color15": "#f5ffff"
+    }
+}

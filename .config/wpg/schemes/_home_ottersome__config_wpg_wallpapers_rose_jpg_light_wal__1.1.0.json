@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ottersome/.config/wpg/wallpapers/rose.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#fbfaf8",
+        "foreground": "#232F3A",
+        "cursor": "#232F3A"
+    },
+    "colors": {
+        "color0": "#fbfaf8",
+        "color1": "#C37589",
+        "color2": "#73898B",
+        "color3": "#A2A8A2",
+        "color4": "#DDA4AE",
+        "color5": "#D9BDBC",
+        "color6": "#D1CBB8",
+        "color7": "#232F3A",
+        "color8": "#8b8680",
+        "color9": "#C37589",
+        "color10": "#73898B",
+        "color11": "#A2A8A2",
+        "color12": "#DDA4AE",
+        "color13": "#D9BDBC",
+        "color14": "#D1CBB8",
+        "color15": "#232F3A"
+    }
+}

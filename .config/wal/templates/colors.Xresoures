@@ -1,0 +1,37 @@
+*.foreground:  #{color7.strip}
+*.background:  #{color0.strip}
+*.backgroundt:  #A0{color0.strip}
+!*.cursorColor: #708284
+
+! Black
+*.color0:      #{color0.strip}
+*.color8:      #{color8.strip}
+!
+! Red
+*.color1:      #{color1.strip}
+*.color9:      #{color9.strip}
+!
+! Green
+*.color2:      #{color2.strip}
+*.color10:     #{color10.strip}
+!
+! Yellow
+*.color3:      #{color3.strip}
+*.color11:     #{color11.strip}
+!
+! Blue
+*.color4:      #{color4.strip}
+*.color12:     #{color12.strip}
+!
+! Magenta
+*.color5:      #{color5.strip}
+*.color13:     #{color13.strip}
+!
+! Cyan
+*.color6:      #{color6.strip}
+*.color14:     #{color14.strip}
+!
+! White
+*.color7:      #{color7.strip}
+*.color15:     #{color15.strip}
+
