@@ -2,31 +2,31 @@
 
 gtk-color-scheme = "bg_color:#0f101b
 color0:#0f101b
-color1:#AF7A8C
-color2:#B094B2
-color3:#D7B4C6
-color4:#5E678F
-color5:#DEA1AB
-color6:#ACB4CB
+color1:#5E678F
+color2:#AF7A8C
+color3:#B094B2
+color4:#DEA1AB
+color5:#ACB4CB
+color6:#D7B4C6
 color7:#d2dae2
-color8:#20223b
-color9:#f68baf
-color10:#f7abfc
-color11:#ffceff
-color12:#6a7cc9
-color13:#ffb8cd
-color14:#c7deff
-color15:#f5ffff
-text_color:#f5ffff
-selected_bg_color:#cb93a4
-selected_fg_color:#f5ffff
+color8:#93989e
+color9:#5E678F
+color10:#AF7A8C
+color11:#B094B2
+color12:#DEA1AB
+color13:#ACB4CB
+color14:#D7B4C6
+color15:#d2dae2
+text_color:#d2dae2
+selected_bg_color:#8b6170
+selected_fg_color:#d2dae2
 tooltip_bg_color:#0f101b
-tooltip_fg_color:#f5ffff
+tooltip_fg_color:#d2dae2
 titlebar_bg_color:#0f101b
-titlebar_fg_color:#f5ffff
+titlebar_fg_color:#d2dae2
 menu_bg_color:#0f101b
-menu_fg_color:#f5ffff
-link_color:#cb93a4"
+menu_fg_color:#d2dae2
+link_color:#8b6170"
 gtk-auto-mnemonics	= 1
 
 # Default Style

@@ -1,7 +1,9 @@
 return require('packer').startup(function()
 use 'deviantfero/wpgtk.vim' 
 -- use 'davidhalter/jedi-vim'
-use 'rebelot/kanagawa.nvim'
+use 'ctrlpvim/ctrlp.vim'
+--use 'rebelot/kanagawa.nvim'
+use 'AlexvZyl/nordic.nvim'
 use 'hanschen/vim-ipython-cell'
 use 'puremourning/vimspector'
 use 'junegunn/vim-easy-align'
@@ -25,12 +27,12 @@ use 'leafgarland/typescript-vim'
 use 'peitalin/vim-jsx-typescript'
 --use 'styled-components/vim-styled-components', { 'branch': 'main' }
 use 'jparise/vim-graphql'
-use({
-    'rose-pine/neovim',
-    as = 'rose-pine',
-    tag = 'v1.*',
-    config = function()
-        vim.cmd('colorscheme rose-pine')
-    end
-})
+--use({
+--    'rose-pine/neovim',
+--    as = 'rose-pine',
+--    tag = 'v1.*',
+--    config = function()
+--        vim.cmd('colorscheme rose-pine')
+--    end
+--})
 end )

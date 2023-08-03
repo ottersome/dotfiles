@@ -91,6 +91,9 @@ bindsym $mod+Shift+Up move up bindsym $mod+Shift+Right move right
 # split in horizontal orientation
 bindsym $mod+b split h
 
+# Connect to main bluetoot device
+bindsym $mod+Shift+b exec bluetoothctl connect 38:18:4C:5A:BA:BE
+
 # split in vertical orientation
 bindsym $mod+v split v
 
@@ -149,7 +152,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 0
 
 bindsym $mod+c exec qutebrowser
-bindsym $mod+z exec deepin-screen-recorder -s ~/Screenshots/
+bindsym $mod+z exec deepin-screenshot
 bindsym $mod+x exec thunar
 bindsym $mod+Shift+z exec deepin-screen-recorder 
 #bindsym $mod+z exec deepin-screenshot -s ~/NCTU/Year2_Semester2/CheatSheets/Algorithms_/Images/
@@ -159,7 +162,8 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec rofi -modi emoji -show emoji -kb-custom-1 Ctrl+c
 
 # resize window (you can also use the mouse for that)
 bindsym $mod+Ctrl+l resize shrink width 5 px or 5 ppt
@@ -233,8 +237,8 @@ for_window [class="Qalculate-gtk"] floating enable
 # Some nice titles
 
 #smart_gaps on
-gaps inner 10
-gaps outer 10
+gaps inner 20
+gaps outer 20
 
 # class                 border  backgr. text indicator child_border
 client.focused          $brd     $curs     $fg  $bg       $brd
@@ -247,7 +251,7 @@ client.background       $bg
 
 #DefaultBackground
 #exec_always wal -o /home/ottersome/scripts/basho -i /home/ottersome/Wallpapers/Elementary.jpg
-exec_always wpg -s analogBridgeSunset.jpg
+exec_always wpg -s ~/Onedrive/Wallpapers/lukasz-szmigiel-bluepinkmountain.jpg
 
 bindsym $mod+p exec passMenu
 bindsym $mod+s exec spotify
@@ -255,5 +259,5 @@ bindsym $mod+s exec spotify
 bindsym $mod+Shift+m exec urxvt -hold -title 'floaty' -e changeWallpaper 
 #bindsym $mod+t exec urxvt -hold -title "floaty" -e task 
 
-##exec_always --no-startup-id compton
+exec_always --no-startup-id compton
 exec_always --no-startup-id $HOME/.config/polybar/polybar-monitors.sh

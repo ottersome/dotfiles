@@ -13,8 +13,8 @@
 "-------------------------------------------------------------------------------
 " General Configs
 "-------------------------------------------------------------------------------
-
-set shell=/bin/bash
+":colorscheme kanagawa
+:colorscheme nordic
 set encoding=utf-8
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -27,7 +27,7 @@ set shell=/usr/bin/zsh
 
 " Persistent Undo
 " Put plugins and dictionaries in this dir (also on Windows)
-let vimDir = '$HOME/.vim'
+let vimDir = '$HOME/.config/nvim/'
 let &runtimepath.=','.vimDir
 
 "For Vimspector
@@ -47,7 +47,7 @@ endif
 
 let mapleader = " "
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+"set rtp+=~/.vim/bundle/Vundle.vim
 set nowrap
 set textwidth=0
 set sr fo=roqm1 tw=64
@@ -83,7 +83,7 @@ set shiftwidth=4
 
 " Copy and paste functionality
 vnoremap <C-c> "*y :let @+=@*<CR>
-map <C-p> "+P
+"map <C-p> "+P
 
 " The spellcheck toggle
 "map <F5> :setlocal spell! spelllang=en_us<CR>
@@ -144,6 +144,7 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
+
 " Use <c-space> to trigger completion.
 if has('nvim')
   inoremap <silent><expr> <c-space> coc#refresh()
@@ -154,7 +155,8 @@ endif
 " Make <CR> auto-select the first completion item and notify coc.nvim to
 " format on enter, <cr> could be remapped by other vim plugin
 inoremap <silent><expr> <TAB> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+                              \: "<TAB>"
+                              "\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
@@ -168,6 +170,10 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nmap <silent> rn <Plug>(coc-rename)
 nmap <Leader> f <Plug>(coc-format-selected)
+
+"Ctrlp
+
+nnoremap <C-l>  :CtrlPLine<CR>
 
 
 " Vim spector mappings
@@ -204,7 +210,7 @@ let g:coc_global_extensions = [
 " Pywal for vim  "
 "colorscheme wpgtk
 "colorscheme everforest
-colorscheme kanagawa
+"colorscheme kanagawa
 
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 let g:md_pdf_viewer="zathura"
@@ -279,7 +285,7 @@ let g:comfortable_motion_scroll_up_key = "k"
 noremap <silent> <ScrollWheelDown> :call comfortable_motion#flick(40)<CR>
 noremap <silent> <ScrollWheelUp>   :call comfortable_motion#flick(-40)<CR>
 
-let g:python3_host_prog = '/home/ottersome/miniconda3/envs/py38/bin/python'
+let g:python3_host_prog = '/home/ottersome/miniconda3/envs/research/bin/python'
 "------------------------------------------------------------------------------
 " ipython-cell configuration
 "------------------------------------------------------------------------------
