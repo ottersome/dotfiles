@@ -276,8 +276,8 @@ let g:NERDCommentEmptyLines = 1
 
 " General remaps 
 noremap <Leader>g :Goyo<CR>
-" noremap <Leader>h :tabp<CR>
-" noremap <Leader>l :tabn<CR>
+noremap <Leader>h :tabp<CR>
+noremap <Leader>l :tabn<CR>
 
 " Some smoothness in scrolling
 let g:comfortable_motion_scroll_down_key = "j"
@@ -307,7 +307,7 @@ nnoremap <Leader>c :IPythonCellExecuteCell<CR>
 nnoremap <Leader>C :IPythonCellExecuteCellJump<CR>
 
 " map <Leader>l to clear IPython screen
-nnoremap <Leader>l :IPythonCellClear<CR>
+" nnoremap <Leader>l :IPythonCellClear<CR>
 
 " map <Leader>x to close all Matplotlib figure windows
 nnoremap <Leader>x :IPythonCellClose<CR>
@@ -317,8 +317,8 @@ nnoremap [c :IPythonCellPrevCell<CR>
 nnoremap ]c :IPythonCellNextCell<CR>
 
 " map <Leader>h to send the current line or current selection to IPython
-nmap <Leader>h <Plug>SlimeLineSend
-xmap <Leader>h <Plug>SlimeRegionSend
+" nmap <Leader>h <Plug>SlimeLineSend
+" xmap <Leader>h <Plug>SlimeRegionSend
 
 " map <Leader>p to run the previous command
 nnoremap <Leader>p :IPythonCellPrevCommand<CR>
