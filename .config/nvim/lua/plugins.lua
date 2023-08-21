@@ -2,6 +2,7 @@ return require('packer').startup(function()
 use 'deviantfero/wpgtk.vim' 
 -- use 'davidhalter/jedi-vim'
 use 'ctrlpvim/ctrlp.vim'
+use 'Yggdroot/indentLine'
 --use 'rebelot/kanagawa.nvim'
 use 'AlexvZyl/nordic.nvim'
 use 'jpalardy/vim-slime'
