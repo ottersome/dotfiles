@@ -102,7 +102,7 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+q layout stacking
+bindsym $mod+Shift+v layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -180,10 +180,10 @@ bindsym $mod+Ctrl+slash exec --no-startup-id pulseaudio-ctl mute
 #Change sink
 bindsym $mod+Shift+a exec changeSink
 
-### volume ###
-#bindsym F5 exec --no-startup-id playerctl previous 
-#bindsym F6 exec --no-startup-id playerctl next 
-#bindsym F7 exec --no-startup-id pulseaudio-ctl down
+## volume ###
+bindsym F5 exec --no-startup-id playerctl previous 
+bindsym F6 exec --no-startup-id playerctl next 
+bindsym F7 exec --no-startup-id pulseaudio-ctl down
 #bindsym F8 exec --no-startup-id pulseaudio-ctl up 
 #bindsym F9 exec --no-startup-id pulseaudio-ctl mute
 #bindsym F10 exec --no-startup-id playerctl play-pause
@@ -191,9 +191,9 @@ bindsym $mod+Shift+a exec changeSink
 #bindsym XF86AudioPrev exec --no-startup-id playerctl previous 
 bindsym XF86AudioPrev exec st
 bindsym XF86AudioNext exec --no-startup-id playerctl next 
-bindsym XF86AudioLowerVolume exec --no-startup-id pulseaudio-ctl down
-bindsym XF86AudioRaiseVolume exec --no-startup-id pulseaudio-ctl up 
-bindsym XF86AudioMute exec --no-startup-id pulseaudio-ctl mute
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%-
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+
+bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 
 ### control music n' stuff boi
@@ -206,7 +206,7 @@ bindsym $mod+F11 exec mpc toggle
 #bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
 #bindsym XF86AudioMute exec amixer -q set Master toggle
 
-bindsym $mod+r exec rofi -show file-browser-extended -file-browser-depth 3  -file-browser-dir ~/Onedrive/ResearchPapers -file-browser-cmd sioyek
+bindsym $mod+r exec rofi -show file-browser-extended -file-browser-depth 4  -file-browser-dir ~/Onedrive/ResearchPapers -file-browser-cmd sioyek
 bindsym $mod+t exec rofi -show file-browser-extended -file-browser-depth 3  -file-browser-dir ~/Onedrive/Books/Academic -file-browser-cmd sioyek
 #bindsym $mod+r mode "resize"
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
@@ -252,9 +252,11 @@ client.background       $bg
 #DefaultBackground
 #exec_always wal -o /home/ottersome/scripts/basho -i /home/ottersome/Wallpapers/Elementary.jpg
 exec_always wpg -s ~/Onedrive/Wallpapers/lukasz-szmigiel-bluepinkmountain.jpg
+exec_always --no-startup-id fcitx5 -d
 
 bindsym $mod+p exec passMenu
 bindsym $mod+s exec spotify
+bindsym $mod+q exec qalculate-gtk
 
 bindsym $mod+Shift+m exec urxvt -hold -title 'floaty' -e changeWallpaper 
 #bindsym $mod+t exec urxvt -hold -title "floaty" -e task 

@@ -275,7 +275,7 @@ let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
 let g:NERDCommentEmptyLines = 1
 
 " General remaps 
-noremap <Leader>g :Goyo<CR>
+noremap <Leader>g :ZenMode<CR>
 noremap <Leader>h :tabp<CR>
 noremap <Leader>l :tabn<CR>
 

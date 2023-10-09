@@ -94,10 +94,10 @@ _G.packer_plugins = {
     path = "/home/ottersome/.local/share/nvim/site/pack/packer/start/fzf.vim",
     url = "https://github.com/junegunn/fzf.vim"
   },
-  ["goyo.vim"] = {
+  indentLine = {
     loaded = true,
-    path = "/home/ottersome/.local/share/nvim/site/pack/packer/start/goyo.vim",
-    url = "https://github.com/junegunn/goyo.vim"
+    path = "/home/ottersome/.local/share/nvim/site/pack/packer/start/indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
   },
   ["limelight.vim"] = {
     loaded = true,
@@ -174,6 +174,11 @@ _G.packer_plugins = {
     path = "/home/ottersome/.local/share/nvim/site/pack/packer/start/vim-pandoc-markdown-preview",
     url = "https://github.com/ottersome/vim-pandoc-markdown-preview"
   },
+  ["vim-slime"] = {
+    loaded = true,
+    path = "/home/ottersome/.local/share/nvim/site/pack/packer/start/vim-slime",
+    url = "https://github.com/jpalardy/vim-slime"
+  },
   ["vim-snippets"] = {
     loaded = true,
     path = "/home/ottersome/.local/share/nvim/site/pack/packer/start/vim-snippets",
@@ -193,6 +198,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ottersome/.local/share/nvim/site/pack/packer/start/wpgtk.vim",
     url = "https://github.com/deviantfero/wpgtk.vim"
+  },
+  ["zen-mode.nvim"] = {
+    loaded = true,
+    path = "/home/ottersome/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
+    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 

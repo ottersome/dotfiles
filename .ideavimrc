@@ -1,5 +1,6 @@
 let mapleader=" "
 set relativenumber
+set rnu
 nnoremap \e :e ~/.ideavimrc<CR>
 nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
 
