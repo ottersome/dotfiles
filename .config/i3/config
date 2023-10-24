@@ -152,7 +152,8 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 0
 
 bindsym $mod+c exec qutebrowser
-bindsym $mod+z exec deepin-screenshot
+#bindsym $mod+z exec deepin-screenshot
+bindsym $mod+z exec flameshot gui
 bindsym $mod+x exec thunar
 bindsym $mod+Shift+z exec deepin-screen-recorder 
 #bindsym $mod+z exec deepin-screenshot -s ~/NCTU/Year2_Semester2/CheatSheets/Algorithms_/Images/
